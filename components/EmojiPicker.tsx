@@ -1,6 +1,7 @@
 import { MaterialIcons } from "@expo/vector-icons";
 import { PropsWithChildren } from "react";
 import { Modal, Pressable, StyleSheet, Text, View } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 type Props = PropsWithChildren<{
     isVisible: boolean;
