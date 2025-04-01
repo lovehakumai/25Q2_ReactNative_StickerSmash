@@ -83,5 +83,13 @@ export default ({config}: ConfigContext): ExpoConfig=>({
         "projectId": "d5eaa45e-fc8f-4483-a707-7386f4a45be6"
       }
     },
+
+    "updates": {
+      "url": "https://u.expo.dev/d5eaa45e-fc8f-4483-a707-7386f4a45be6"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    
     "owner": "masaharu_ura"
   })
