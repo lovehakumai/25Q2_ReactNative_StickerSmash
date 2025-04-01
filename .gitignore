@@ -36,3 +36,6 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# GCP Service Account Key
+stickersmash-455508-7c97491bf155.json
