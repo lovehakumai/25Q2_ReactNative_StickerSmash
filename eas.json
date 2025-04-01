@@ -7,7 +7,13 @@
     "development": {
       "developmentClient": true,
       "distribution": "internal",
-      "env":{"APP_VARIANT": "development"}
+      "env":{"APP_VARIANT": "development"},
+      "android": {
+        "image": "latest"
+      },
+      "ios": {
+        "image": "latest"
+      }
     },
     "preview": {
       "distribution": "internal",
@@ -24,6 +30,11 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./stickersmash-455508-7c97491bf155.json",
+        "track":"internal"
+      }
+    }
   }
 }
